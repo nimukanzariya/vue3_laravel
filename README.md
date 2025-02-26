@@ -22,8 +22,13 @@
     
     - set PASSPORT_PASSWORD_CLIENT_ID and  PASSPORT_PASSWORD_SECRET in login.vue file
 
+6 php artisan run serve
 
-6 login credential
+7 php artisan queue:work
+
+8 login credential
+
     username = admin@gmail.com
+    
     password = 123456
 
