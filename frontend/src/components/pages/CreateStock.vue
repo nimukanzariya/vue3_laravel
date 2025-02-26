@@ -38,8 +38,8 @@
                             <div class="col-lg-6">
                                 <select class="form-control" v-model="stock.store" id="storeSelect">
                                     <option value="">Select store</option>
-                                    <option v-for="store in stores" :key="store.name" :value="store.name">
-                                        {{ store.name }}
+                                    <option v-for="store in stores" :key="store" :value="store">
+                                        {{ store }}
                                     </option>
                                 </select>
                                 <p v-if="error.store" style="color: red">{{ error.store }}</p>

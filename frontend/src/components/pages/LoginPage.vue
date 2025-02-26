@@ -71,7 +71,7 @@ export default {
             await axios.post('http://127.0.0.1:8000/api/login', {
                 grant_type: 'password',
                 client_id: '1',
-                client_secret: 'RZd4rLb5eAxGOsp5gGGBiygI5Z8dyvkVkZs9Tyt0',
+                client_secret: 'JLMkwIHvaT7C7QJhvXVn9iXtp4cABDKiAxRWbGR7',
                 username: this.user.username,
                 password: this.user.password,
                 scope: ''
