@@ -14,14 +14,16 @@
 
 3 php artisan db:seed
 
-4  php artisan passport:client --password
+4 php artisan passport:install
+
+5  php artisan passport:client --password
 
     - set PASSPORT_PASSWORD_CLIENT_ID and  PASSPORT_PASSWORD_SECRET in laravel .env file
     
     - set PASSPORT_PASSWORD_CLIENT_ID and  PASSPORT_PASSWORD_SECRET in login.vue file
 
 
-5 login credential
+6 login credential
     username = admin@gmail.com
     password = 123456
 
