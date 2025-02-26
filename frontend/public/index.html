@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="">
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width,initial-scale=1.0">
+  <link rel="icon" href="<%= BASE_URL %>favicon.ico">
+  <title>
+    <%= htmlWebpackPlugin.options.title %>
+  </title>
+  <link rel="stylesheet" href="<%= webpackConfig.output.publicPath %>vendor/bootstrap/css/bootstrap.css" />
+  <link rel="stylesheet" href="<%= webpackConfig.output.publicPath %>vendor/animate/animate.compat.css">
+  <link rel="stylesheet" href="<%= webpackConfig.output.publicPath %>vendor/font-awesome/css/all.min.css" />
+  <link rel="stylesheet" href="<%= webpackConfig.output.publicPath %>vendor/boxicons/css/boxicons.min.css" />
+  <link rel="stylesheet" href="<%= webpackConfig.output.publicPath %>vendor/magnific-popup/magnific-popup.css" />
+  <link rel="stylesheet"
+    href="<%= webpackConfig.output.publicPath %>vendor/bootstrap-datepicker/css/bootstrap-datepicker3.css" />
+
+  <!-- Specific Page Vendor CSS -->
+  <link rel="stylesheet" href="<%= webpackConfig.output.publicPath %>vendor/jquery-ui/jquery-ui.css" />
+  <link rel="stylesheet" href="<%= webpackConfig.output.publicPath %>vendor/jquery-ui/jquery-ui.theme.css" />
+  <link rel="stylesheet"
+    href="<%= webpackConfig.output.publicPath %>vendor/bootstrap-multiselect/css/bootstrap-multiselect.css" />
+  <link rel="stylesheet" href="<%= webpackConfig.output.publicPath %>vendor/morris/morris.css" />
+
+  <!-- Theme CSS -->
+  <link rel="stylesheet" href="<%= webpackConfig.output.publicPath %>css/theme.css" />
+
+  <!-- Theme Custom CSS -->
+  <link rel="stylesheet" href="<%= webpackConfig.output.publicPath %>css/custom.css">
+  <!-- Head Libs -->
+  <script src="<%= webpackConfig.output.publicPath %>vendor/modernizr/modernizr.js"></script>
+
+  <script src="<%= webpackConfig.output.publicPath %>master/style-switcher/style.switcher.localstorage.js"></script>
+
+
+</head>
+
+<body>
+  <noscript>
+    <strong>We're sorry but <%= htmlWebpackPlugin.options.title %> doesn't work properly without JavaScript enabled.
+        Please enable it to continue.</strong>
+  </noscript>
+  <div id="app"></div>
+  <!-- built files will be auto injected -->
+
+
+  <script src="<%= webpackConfig.output.publicPath %>vendor/jquery/jquery.js"></script>
+  <!-- Theme Base, Components and Settings -->
+  <!-- <script src="<%= webpackConfig.output.publicPath %>js/theme.js"></script> -->
+
+  <!-- Theme Custom -->
+  <!-- <script src="<%= webpackConfig.output.publicPath %>js/custom.js"></script> -->
+
+  <!-- Theme Initialization Files -->
+  <!-- <script src="<%= webpackConfig.output.publicPath %>js/theme.init.js"></script> -->
+  <!-- <script src="<%= webpackConfig.output.publicPath %>js/examples/examples.dashboard.js"></script> -->
+</body>
+
+</html>
